@@ -1,23 +1,23 @@
-:root {
-  /* front*/
+/* :root {
+ 
   --main-font: Roboto, sans-serif, raleway;
-  /* text color */
+ 
   --main-text-cl: #212121;
   --akcent-cl: #2196f3;
   --text-modal-cl:#757575;
 
-  /* background color*/
+
   --main-background-cl: #ffffff;
   --background-cl-icon:#AFB1B8;
   --footer-cl:#2f303a;
 
-  /*other*/
+
   --items: 3;
   --indent: 30px;
   --border: 1px;
-}
+} */
 
-body {
+/* body {
   font-family: var(--main-font);
   background-color: var(--main-background-cl);
   color: var(--main-text-cl);
@@ -25,15 +25,14 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   
-}
+} */
 /*reset*/
-.link {
+/* .link {
   text-decoration: none;
   color: currentColor;
-  
-}
-.nav__media-link{
-/*animation*/
+} */
+ /* .nav__media-link{
+
 transition-property: color ;
 transition-duration:250ms ;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -44,7 +43,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--akcent-cl);
 }
 .nav__media-contact{
-  /*animation*/
+
   transition-property:fill, color ;
   transition-duration:250ms ;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -53,30 +52,30 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 .nav__media-contact:focus {
   fill: var(--akcent-cl);
   color: var(--akcent-cl);
-}
+} */
 
 
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.section {
+} */
+/* .section {
   padding-bottom: 94px;
   
-}
+} */
 
 /*************************
 ********HEADER************
 *************************/
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
   
-}
-.header {
+} */
+/* .header {
   letter-spacing: 0.02em;
   font-weight: 500;
   border-bottom: 1px solid #ececec;
@@ -95,8 +94,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
 
 
-}
-.logo {
+} */
+/* .logo {
   text-decoration: none;
   font-family: 'Raleway';
   font-weight: 700;
@@ -112,8 +111,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
 .logo-cl {
   color: var(--akcent-cl);
-}
-.nav__list {
+} */
+/* .nav__list {
   display: flex;
   align-items: center;
 
@@ -163,7 +162,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #757575;
-    /*animation*/
+
   transition-property:fill, color ;
   transition-duration:250ms ;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -178,9 +177,9 @@ margin-right: 10px;
 }
 .nav__item-contact:last-child {
   margin-right: 0;
-}
+} */
 
-
+/* 
 .footer {
   background-color:var(--footer-cl);
   padding-top: 60px;
@@ -219,9 +218,9 @@ margin-right: 10px;
   margin-top: 0;
   margin-bottom: 20px;
   color: var(--main-background-cl);
-  Font family: var(--main-font);
-  Font style: Bold;
-  Font size: 14px;
+  font-family: var(--main-font);
+  font-style: Bold;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .footer__contacts {
@@ -245,7 +244,7 @@ margin-right: 10px;
 .footer__icon:hover,
 .footer__icon:focus {
       background-color: var(--akcent-cl);
- }
+ } */
 
 
 
@@ -255,7 +254,7 @@ margin-right: 10px;
 *****************************
 ****************************/
 
-.section-btn {
+/* .section-btn {
   background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -278,8 +277,8 @@ margin-right: 10px;
   line-height: calc(60 / 44);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.btn {
+} */
+/* .btn {
   font-family: var(--main-font);
   background: var(--akcent-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -291,8 +290,8 @@ margin-right: 10px;
   color: #ffffff;
   cursor: pointer;
   padding: 10px 32px;
-}
-.backdrop.is-hidden{
+} */
+/* .backdrop.is-hidden{
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -338,7 +337,7 @@ border-radius: 4px;
 .modal-close {
 display: block;
 margin: auto;
-/*animation*/
+
 transition-duration:250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -347,7 +346,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 .modal-btn:focus {
   fill: var(--akcent-cl);
 
-}
+} */
+/* 
 .description {
   padding-top: 94px;
 }
@@ -481,7 +481,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     background-color:var(--main-background-cl);
     border-radius: 50%;
     color: var(--background-cl-icon);
-      /*animation*/
+     
     transition-property:color, background-color;
     transition-duration:250ms ;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -518,7 +518,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
     color: var(--background-cl-icon);
-      /*animation*/
+
     transition-property:color, border-color;
     transition-duration:250ms ;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -532,7 +532,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 .clients-link:focus {
   color: var(--akcent-cl);
   border-color: var(--akcent-cl);
-}
+} */
 
 
 /****************************
@@ -540,7 +540,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
           Page 2
 *****************************
 ****************************/
-.porfolio {
+/* .porfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -551,8 +551,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   margin: 0 0 50px 0;
   padding-left: 0;
-}
-
+} */
+/* 
 .porfolio-btn {
   padding: 6px 22px;
   font-family: var(--main-font);
@@ -562,7 +562,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   border-radius: 4px;
   cursor: pointer;
-   /*animation*/
+
   transition-property:color, background-color, box-shadow;
   transition-duration:250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -577,8 +577,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 .porfolio-btn:active {
   background-color: var(--akcent-cl);
   color: #ffffff;
-}
-.portfolio-list {
+} */
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
@@ -588,7 +588,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   box-sizing: border-box;
   display: block;
   text-decoration: none;
-  /*animation*/
+
   transition-property:box-shadow;
   transition-duration:250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -624,7 +624,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
- /*animation*/
+
  transition-property:transform;
  transition-duration:250ms;
  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -663,8 +663,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 16px;
   line-height: calc(30 / 16);
   color: #757575;
-}
-.subscription{
+} */
+/* .subscription{
   margin-left:43px;
   display: block;
 }
@@ -697,14 +697,14 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 input::placeholder{
   padding: 15px 295px 15px 16px;
-}
+} */
 
 
 
 /**************************
 ***Modal window************
 ***************************/
-
+/* 
 .order-form-title{
   font-family: var(--main-font);
   font-size: 20px;
@@ -751,7 +751,7 @@ font: inherit;
 cursor: pointer;
 outline:none;
 padding-left: 42px;
-/*animation*/
+
 transition-duration:250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -761,7 +761,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   top:52%;
   left: 12px;
   cursor: pointer;
-  /*animation*/
+
 transition-duration:250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -820,7 +820,7 @@ color: #ffffff;
 cursor: pointer;
 
 border: none;
-/*animation*/
+
 transition-property:box-shadow;
 transition-duration:250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -835,7 +835,7 @@ box-shadow: 0px 2px 2px 0px #0000001F, 0px 1px 2px 0px #00000014, 0px 3px 1px 0p
 .check {
   opacity: 0;
   fill:#2196f3;
-    /*animation*/
+
 transition-duration:250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -849,4 +849,4 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox:checked + .icon-check .uncheck {
   opacity: 0;
 }
-
+ */
